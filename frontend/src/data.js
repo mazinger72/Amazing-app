@@ -14,7 +14,7 @@ const data = {
       },
       {
         _id: '2',
-        name: 'Kenneth Cole Fit Shirt',
+        name: 'Kenneth Cole Fitted Shirt',
         category: 'Shirts',
         image: '/images/p2.jpg',
         price: 100,
