@@ -121,7 +121,7 @@ export const deleteProduct = (productId) => async (dispatch, getState) => {
   const {
     userSignin: { userInfo },
   } = getState();
-  try {
+  try {// eslint-disable-next-line
     const { data } = Axios.delete(`/api/products/${productId}`, {
       headers: { Authorization: `Bearer ${userInfo.token}` },
     });
